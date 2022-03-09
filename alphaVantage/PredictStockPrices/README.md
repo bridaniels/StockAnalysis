@@ -38,4 +38,13 @@ Deep Learning Framework: [Long Short-Term Memory (LTSM)](https://en.wikipedia.or
     - longer the sequence -> longer the training time 
     
     
+- Loss Function: Mean Squared Error
+    - step-by-step "loss" values calculated by how well the model is learning 
+    - `loss train` tells us how well model is learning 
+    - `loss test` tells us how well the model generalizes to the validation dataset
+    -  well-trained model will have a training and validation loss that decreases to negligible differences between two values 
+        - model has 'converged'
+    - loss values usually lower on training than validation dataset 
+    
+    
     

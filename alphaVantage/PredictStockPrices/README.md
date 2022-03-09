@@ -1,4 +1,4 @@
-# **[Predicting Stock Prices with Deep Neural Networks](https://www.alphavantage.co/academy/#ai-for-finance)
+# **[Predicting Stock Prices with Deep Neural Networks](https://www.alphavantage.co/academy/#ai-for-finance)**
 ---
 Deep Learning Framework: [Long Short-Term Memory (LTSM)](https://en.wikipedia.org/wiki/Long_short-term_memory)
 - artificial recurrent neural network (RNN) architecture 

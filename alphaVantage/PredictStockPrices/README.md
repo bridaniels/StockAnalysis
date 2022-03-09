@@ -2,11 +2,16 @@
 ---
 Deep Learning Framework: [Long Short-Term Memory (LTSM)](https://en.wikipedia.org/wiki/Long_short-term_memory)
 - artificial recurrent neural network (RNN) architecture 
+    - overcomes technical limitations of RNNs
+    - fail to learn when data sequence is greather than 5-10 due to `vanishing gradients problem`
 - feedback connections to process single data points, as well as sequences of data
 - good for classifying, processing, and making predictions based on time-series data 
     - can 'memorize' patterns from historical sequences of data 
 - commonly composed of a **cell**, **input gate**, **output gate**, and a **forget gate**
     - cell remembers values over arbitrary time intervals and the three gates regulate flow of information in and out of the cell 
+- learn long sequences of data by enforcing constant error flow through self-connected hidden layers 
+- layers contain memory cells and corresponding gate units 
+
     
 - [Gradient Descent:](https://en.wikipedia.org/wiki/Gradient_descent) Optimization Technique
     - requires data to be scaled for LTSM

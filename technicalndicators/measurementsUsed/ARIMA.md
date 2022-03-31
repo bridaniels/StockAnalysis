@@ -48,6 +48,22 @@
 - return fitted estimator 
 
 
+### Histogram:
+- visual interpretation of how many data points fall within a range of values 
+- organized into 'bins'
+- shows the distribution of values across a dataset 
+
+### Sklearn's Confusion Matrix: 
+- `.confusion_matrix(y_true,y_pred).ravel()`
+- evaluates accuracy of classification 
+- `nxn` matrix used to evaluate performance of a classification model (2D array)
+- `.ravel()` flattens the matrix into a 1D array -> same type as input array (numpy)
+- returns as `(tn, fp, fn, tp)`:
+    - `tn`: true negative
+    - `fp`: false positive
+    - `fn`: false negative
+    - `tp`: true positive 
+
 
 # References
 --- 
@@ -56,3 +72,5 @@
 - [GeeksforGeeks: AutoCorrelation](https://www.geeksforgeeks.org/autocorrelation/)
 - [statsmodels.tsa.arima.model.ARIMA](https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.html)
 - [Toward Data Science: .fit(), .predict(), .fit_predict()](https://towardsdatascience.com/fit-vs-predict-vs-fit-predict-in-python-scikit-learn-f15a34a8d39f)
+- [Sklearn's Confusion Matrix](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html)
+- [Numpy's Ravel](https://www.geeksforgeeks.org/numpy-ravel-python/)
